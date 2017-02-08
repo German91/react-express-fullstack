@@ -8,8 +8,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-Clone the project.
-
 * Mongodb
 * Nodejs
 
@@ -18,7 +16,7 @@ Clone the project.
 Clone or download the repository
 
 ```
-git clone
+git clone https://github.com/German91/react-express-fullstack
 ```
 
 Install Dependencies

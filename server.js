@@ -14,6 +14,9 @@ const app = express();
 // Database
 require('./config/db');
 
+// Routes
+require('./app/routes')(app);
+
 app.disable('x-powered-by');
 app.use(logger("dev"));
 app.use(helmet.xssFilter());
